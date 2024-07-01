@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1, h2 {
+    color: #333;
+}
+.example-container {
+    margin-bottom: 40px;
+}
+
+/* Example 1: Display */
+.display-example {
+    display: flex;
+    background-color: lightgray;
+    padding: 10px;
+}
+.display-example > div {
+    background-color: coral;
+    margin: 5px;
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+}
+
+/* Example 2: Flex-direction */
+.flex-direction-example {
+    display: flex;
+    flex-direction: row-reverse; /* Change to row, column, column-reverse to see effects */
+    background-color: lightgray;
+    padding: 10px;
+}
+.flex-direction-example > div {
+    background-color: coral;
+    margin: 5px;
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+}
+
+/* Example 3: Flex-wrap */
+.flex-wrap-example {
+    display: flex;
+    flex-wrap: wrap; /* Change to nowrap, wrap-reverse to see effects */
+    background-color: lightgray;
+    padding: 10px;
+}
+.flex-wrap-example > div {
+    background-color: coral;
+    margin: 5px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+/* Example 4: Justify-content */
+.justify-content-example {
+    display: flex;
+    justify-content: space-between; /* Change to flex-start, flex-end, center, space-around, space-evenly to see effects */
+    background-color: lightgray;
+    padding: 10px;
+}
+.justify-content-example > div {
+    background-color: coral;
+    margin: 5px;
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+}
+
+/* Example 5: Align-items */
+.align-items-example {
+    display: flex;
+    align-items: flex-end; /* Change to stretch, flex-start, center, baseline to see effects */
+    background-color: lightgray;
+    padding: 10px;
+    height: 200px;
+}
+.align-items-example > div {
+    background-color: coral;
+    margin: 5px;
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+}
+
+/* Example 6: Align-content */
+.align-content-example {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around; /* Change to flex-start, flex-end, center, space-between, stretch to see effects */
+    background-color: lightgray;
+    padding: 10px;
+    height: 200px;
+}
+.align-content-example > div {
+    background-color: coral;
+    margin: 5px;
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+}
+
+/* Example 7: Flex */
+.flex-example {
+    display: flex;
+    background-color: lightgray;
+    padding: 10px;
+}
+.flex-example > div {
+    background-color: coral;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+}
+.flex-example .item-1 {
+    flex: 1; /* flex-grow */
+}
+.flex-example .item-2 {
+    flex: 2; /* flex-grow */
+}
+.flex-example .item-3 {
+    flex: 1 1 100px; /* flex-grow flex-shrink flex-basis */
+}
+
+/* Example 8: Order */
+.order-example {
+    display: flex;
+    background-color: lightgray;
+    padding: 10px;
+}
+.order-example > div {
+    background-color: coral;
+    margin: 5px;
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+}
+.order-example .item-1 {
+    order: 3;
+}
+.order-example .item-2 {
+    order: 1;
+}
+.order-example .item-3 {
+    order: 2;
+}
+
+/* Example 9: Align-self */
+.align-self-example {
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    padding: 10px;
+    height: 200px;
+}
+.align-self-example > div {
+    background-color: coral;
+    margin: 5px;
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+}
+.align-self-example .item-1 {
+    align-self: flex-start;
+}
+.align-self-example .item-2 {
+    align-self: flex-end;
+}
+.align-self-example .item-3 {
+    align-self: center;
+}
